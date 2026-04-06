@@ -36,7 +36,7 @@ void loop() {
   Serial.print("touch 9: ");
   Serial.println(touchRead(T9)); // pin 32.
 
-  if (touchRead(T9) > 70) { // aca estamos haciendo un ejemplo para que podiamos usar un pin touch puedes bariar el pin (cambiando "T" con por ej T1 o T2 etc) y el tactil-
+  if (touchRead(T9) < 20) { // aca estamos haciendo un ejemplo para que podiamos usar un pin touch puedes bariar el pin (cambiando "T" con por ej T1 o T2 etc) y el tactil-
                               // -con por ej antes de 1000 puedes poner 100 o 653 lo que tu quieras.
     digitalWrite(pinLed, HIGH); // le desimos al pin led que se prenda.
   } else {                    // esto es para cuando sacas el dedo se apaga.
