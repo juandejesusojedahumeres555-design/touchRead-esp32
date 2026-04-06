@@ -1,6 +1,6 @@
 /////////////////////////////////////////////////////////////////////////////////
 // placa "ESP-32" escrito en el lenguaje "C++" Arduino IDE.                    // 
-// este codigo es para ver conprovar o jugar con lo pines tactiles del esp32...//
+// este codigo es para ver comprobar o jugar con lo pines tactiles del esp32...//
 /////////////////////////////////////////////////////////////////////////////////
 
 int pinLed = 2; // le ponemos un nombre a nuestro pin que esta conectado al led (normalemnte es el 2, te recomiendo ver si tu placa coinside).
